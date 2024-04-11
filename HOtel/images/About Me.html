@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://10.200.0.89:5500/mypage.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+    <link rel="icon" type="image/x-icon" href="http://10.200.0.89:5500/images/logohotel.jpeg">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #00aa55;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    p {
+      line-height: 1.6;
+    }
+    footer {
+      background-color: #ffa500;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  
+    .class{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 0%;
+    }
+     .logo{
+display: gr ;
+      width: 30%;
+      height: 20%;
+      justify-content: right;
+    }
+img{
+  width: 150px; 
+  height: 15;
+  display:flex;
+}
+.heading{
+  border: #00aa55,solid;
+  border-radius: 8px;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome;</h1>
+  </header>
+  <div class="container">
+    <section>
+<div class="class">
+    </div>
+      <div class="logo">
+        <img src="./About Me_files/my.jpg" alt="">
+      </div>
+      </section></div>
+<div class="heading">
+      <p>
+        Hello, I'm Richie! I'm a passionate software engineer who loves exploring the world of web development and design. With a keen eye for aesthetics and functionality, I enjoy creating visually appealing and user-friendly websites.
+      </p>
+      <p>
+        In my free time, you can find me experimenting with new coding techniques, indulging in outdoor adventures, or simply relaxing with a good book. I believe in continuous learning and strive to enhance my skills with each project I undertake.
+      </p>
+      <p>
+        Feel free to reach out to me for any webpage design or other inquiries via WhatsApp at: <strong>[0787860378]</strong>
+      </p>
+    </div>
+    
+  
+  <footer>
+    <p>© richardogwal97@gmail.com, All rights reserved.</p>
+  </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
